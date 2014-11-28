@@ -1,0 +1,9 @@
+<div class="jumbotron">
+    <div class="container">
+        <div class="text-center">
+            <h1>{{ QuestionCtrl.getQuestion() }} </h1>
+            <button data-ng-click="QuestionCtrl.onYes()" class="btn btn-primary btn-lg">{{ QuestionCtrl.getYesText() }} </button>
+            <button data-ng-click="QuestionCtrl.onNo()" class="btn btn-primary btn-lg">{{ QuestionCtrl.getNoText() }} </button>
+        </div>
+    </div>
+</div>

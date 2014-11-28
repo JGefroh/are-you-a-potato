@@ -1,0 +1,44 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.task-highlighted {
+    color: red;
+    font-weight: bold;
+}
+
+.table-button {
+    width: 7em;
+}
+
+.table-button-separator {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+td {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.alert {
+    margin-bottom: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}
+
+.active {
+    border-bottom: 1px solid red;
+}
+
+.navbar-link {
+    text-decoration: underline;
+}
